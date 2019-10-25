@@ -1,0 +1,651 @@
+h1 {
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 10px;
+    margin: 0px;
+    font-family: "Cyberverse", 'Times New Roman', Times, serif;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    height: 120vh;
+ 
+
+}
+
+#playGround {
+    background-image: url("images/blue_triangles4.jpeg");
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    height: 100%;
+}
+#leftPlayers {
+    display: grid;
+    grid-template-rows: 30% 30% 30%;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-around;
+    align-content: space-between;
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 95%;
+    height:80%;
+}
+
+#playGround2 {
+    background-image: url("images/blue_triangles4.jpeg");
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    height: 100%;
+}
+#rightPlayers {
+    
+    display: grid;
+    grid-template-rows: 30% 30% 30%;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-around;
+    align-content: space-between;
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 95%;
+    height:80%;
+}
+
+#Connor {
+ width: 250px;
+ height: 250px;
+ border: 2px;
+    border-style: solid;
+    border-color: aliceblue;
+}
+#Connor:hover {
+    border-style: solid;
+    border: 3px;
+    border-style: solid;
+    border-top-color: rgb(0, 255, 255);
+    border-right-color: rgb(70, 227, 255);
+    border-bottom-color: rgb(168, 236, 248);
+    border-left-color: rgb(51, 223, 253);
+   }
+
+#Markus {
+    width: 250px;
+    height: 250x;
+    border: 2px;
+    border-style: solid;
+    border-color: aliceblue;
+}
+
+#Markus:hover {
+    border-style: solid;
+    border: 3px;
+    border-style: solid;
+    border-top-color: rgb(0, 255, 255);
+    border-right-color: rgb(70, 227, 255);
+    border-bottom-color: rgb(168, 236, 248);
+    border-left-color: rgb(51, 223, 253);
+   }
+#Hank {
+    width: 250px;
+    height: 250px;
+    border: 2px;
+    border-style: solid;
+    border-color: aliceblue;
+}
+
+#Hank:hover {
+    border-style: solid;
+    border: 3px;
+    border-style: solid;
+    border-top-color: rgb(0, 255, 255);
+    border-right-color: rgb(70, 227, 255);
+    border-bottom-color: rgb(168, 236, 248);
+    border-left-color: rgb(51, 223, 253);
+   }
+#Josh {
+    width: 250px;
+    height: 250px;
+    border: 2px;
+    border-style: solid;
+    border-color: aliceblue;
+}
+
+#Josh:hover {
+    border-style: solid;
+    border: 3px;
+    border-style: solid;
+    border-top-color: rgb(0, 255, 255);
+    border-right-color: rgb(70, 227, 255);
+    border-bottom-color: rgb(168, 236, 248);
+    border-left-color: rgb(51, 223, 253);
+   }
+#Luther {
+    width: 250px;
+    height: 250px;
+    border: 2px;
+    border-style: solid;
+    border-color: aliceblue;
+}
+
+#Luther:hover {
+    border-style: solid;
+    border: 3px;
+    border-style: solid;
+    border-top-color: rgb(0, 255, 255);
+    border-right-color: rgb(70, 227, 255);
+    border-bottom-color: rgb(168, 236, 248);
+    border-left-color: rgb(51, 223, 253);
+   }
+
+
+#Lucy {
+    width: 250px;
+    height: 250px;
+    border: 2px;
+    border-style: solid;
+    border-color: aliceblue;
+}
+
+#Lucy:hover {
+    border-style: solid;
+    border: 3px;
+    border-style: solid;
+    border-top-color: rgb(0, 255, 255);
+    border-right-color: rgb(70, 227, 255);
+    border-bottom-color: rgb(168, 236, 248);
+    border-left-color: rgb(51, 223, 253);
+   }
+
+#Chloe {
+    width: 250px;
+    height: 250px;
+    border: 2px;
+    border-style: solid;
+    border-color: aliceblue;
+}
+
+#Chloe:hover {
+    border-style: solid;
+    border: 3px;
+    border-style: solid;
+    border-top-color: rgb(0, 255, 255);
+    border-right-color: rgb(70, 227, 255);
+    border-bottom-color: rgb(168, 236, 248);
+    border-left-color: rgb(51, 223, 253);
+   }
+
+#Kara {
+
+    width: 250px;
+    height: 250px;
+    border: 2px;
+    border-style: solid;
+    border-color: aliceblue;
+}
+
+#Kara:hover {
+    border-style: solid;
+    border: 3px;
+    border-style: solid;
+    border-top-color: rgb(0, 255, 255);
+    border-right-color: rgb(70, 227, 255);
+    border-bottom-color: rgb(168, 236, 248);
+    border-left-color: rgb(51, 223, 253);
+   }
+#North {
+    width: 250px;
+    height: 250px;
+    border: 2px;
+    border-style: solid;
+    border-color: aliceblue;
+}
+
+#North:hover {
+    border-style: solid;
+    border: 3px;
+    border-style: solid;
+    border-top-color: rgb(0, 255, 255);
+    border-right-color: rgb(70, 227, 255);
+    border-bottom-color: rgb(168, 236, 248);
+    border-left-color: rgb(51, 223, 253);
+   }
+#Kamsky {
+    width: 250px;
+    height: 250px;
+    border: 2px;
+    border-style: solid;
+    border-color: aliceblue;
+   }
+
+   #Kamsky:hover {
+    border-style: solid;
+    border: 3px;
+    border-style: solid;
+    border-top-color: rgb(216, 5, 5);
+    border-right-color: rgb(248, 0, 54);
+    border-bottom-color: rgb(255, 64, 64);
+    border-left-color: rgb(252, 36, 90);
+   }
+   
+   #Tracy{
+       width: 250px;
+       height: 250x;
+       border: 2px;
+    border-style: solid;
+    border-color: aliceblue;
+   }
+   
+   #Tracy:hover {
+    border-style: solid;
+    border: 3px;
+    border-style: solid;
+    border-top-color: rgb(216, 5, 5);
+    border-right-color: rgb(248, 0, 54);
+    border-bottom-color: rgb(255, 64, 64);
+    border-left-color: rgb(252, 36, 90);
+   }
+
+   #Ralph {
+       width: 250px;
+       height: 250px;
+       border: 2px;
+    border-style: solid;
+    border-color: aliceblue;
+   }
+   
+   #Ralph:hover {
+    border-style: solid;
+    border: 3px;
+    border-style: solid;
+    border-top-color: rgb(216, 5, 5);
+    border-right-color: rgb(248, 0, 54);
+    border-bottom-color: rgb(255, 64, 64);
+    border-left-color: rgb(252, 36, 90);
+   }
+   #Simon {
+       width: 250px;
+       height: 250px;
+       border: 2px;
+    border-style: solid;
+    border-color: aliceblue;
+   }
+   #Simon:hover {
+    border-style: solid;
+    border: 3px;
+    border-style: solid;
+    border-top-color: rgb(216, 5, 5);
+    border-right-color: rgb(248, 0, 54);
+    border-bottom-color: rgb(255, 64, 64);
+    border-left-color: rgb(252, 36, 90);
+   }
+   #RK900 {
+       width: 250px;
+       height: 250px;
+       border: 2px;
+    border-style: solid;
+    border-color: aliceblue;
+   }
+
+   #RK900:hover {
+    border-style: solid;
+    border: 3px;
+    border-style: solid;
+    border-top-color: rgb(216, 5, 5);
+    border-right-color: rgb(248, 0, 54);
+    border-bottom-color: rgb(255, 64, 64);
+    border-left-color: rgb(252, 36, 90);
+   }
+   
+   #Allen {
+       width: 250px;
+       height: 250px;
+       border: 2px;
+    border-style: solid;
+    border-color: aliceblue;
+   }
+   
+   #Allen:hover {
+    border-style: solid;
+    border: 3px;
+    border-style: solid;
+    border-top-color: rgb(216, 5, 5);
+    border-right-color: rgb(248, 0, 54);
+    border-bottom-color: rgb(255, 64, 64);
+    border-left-color: rgb(252, 36, 90);
+   }
+   #Reed{
+       width: 250px;
+       height: 250px;
+       border: 2px;
+    border-style: solid;
+    border-color: aliceblue;
+   }
+   
+   #Reed:hover {
+    border-style: solid;
+    border: 3px;
+    border-style: solid;
+    border-top-color: rgb(216, 5, 5);
+    border-right-color: rgb(248, 0, 54);
+    border-bottom-color: rgb(255, 64, 64);
+    border-left-color: rgb(252, 36, 90);
+   }
+
+   #Todd {
+   
+       width: 250px;
+       height: 250px;
+       border: 2px;
+    border-style: solid;
+    border-color: aliceblue;
+   }
+   
+   #Todd:hover {
+    border-style: solid;
+    border: 3px;
+    border-style: solid;
+    border-top-color: rgb(216, 5, 5);
+    border-right-color: rgb(248, 0, 54);
+    border-bottom-color: rgb(255, 64, 64);
+    border-left-color: rgb(252, 36, 90);
+   }
+
+   #Amanda {
+       width: 250px;
+       height: 250px;
+       border: 2px;
+    border-style: solid;
+    border-color: aliceblue;
+   }
+    #Amanda:hover {
+    border-style: solid;
+    border: 3px;
+    border-style: solid;
+    border-top-color: rgb(216, 5, 5);
+    border-right-color: rgb(248, 0, 54);
+    border-bottom-color: rgb(255, 64, 64);
+    border-left-color: rgb(252, 36, 90);
+   }
+
+   #buttonsLeft {
+       display: flex;
+       flex-direction: row;
+   }
+
+#fight1 {
+    display: flex;
+padding: 10px;
+font-weight: bold;
+font-size: 30px;
+margin-top: 40px;
+margin-left: 25px;
+border: indianred;
+background: black;
+color: white;
+font-family: "Cyberverse", 'Times New Roman', Times, serif;
+
+}
+#fight2 {
+    display: flex;
+padding: 10px;
+font-weight: bold;
+font-size: 30px;
+margin-top: 40px;
+margin-left: 25px;
+border: indianred;
+background: black;
+color: white;
+font-family: "Cyberverse", 'Times New Roman', Times, serif;
+}
+
+#confirmPlayer1 {
+    
+    display: flex;
+    align-self: center;
+    width: 80x;
+    height: 30px;
+   color: rgb(0, 0, 0);
+   background: rgb(252, 25, 82);
+   cursor: pointer;
+font-weight: bold;
+font-size: 12px;
+margin-top: 40px;
+margin-left: 2%;
+border-radius: 5px;
+text-align: center;
+
+}
+
+#confirmPlayer1:hover {
+    background-color: rgb(248, 4, 4);
+}
+
+#buttonsRight {
+    display: flex;
+    flex-direction: row;
+}
+
+#confirmPlayer2 {
+    
+    display: flex;
+    align-self: center;
+    width: 80x;
+    height: 30px;
+   color: rgb(0, 0, 0);
+   background: rgb(252, 25, 82);
+   cursor: pointer;
+font-weight: bold;
+font-size: 12px;
+margin-top: 40px;
+margin-left: 2%;
+border-radius: 5px;
+text-align: center;
+
+}
+
+#confirmPlayer2:hover {
+    background-color: rgb(248, 4, 4);
+}
+
+/* Page2*/
+
+
+#firstRoundPlayer2 {
+    width: 250px;
+    height: 250px;
+    border: 2px;
+ border-style: solid;
+ border-color: aliceblue;
+}
+
+#firstRoundPlayer2:hover{
+ border-style: solid;
+ border: 3px;
+ border-style: solid;
+ border-top-color: rgb(216, 5, 5);
+ border-right-color: rgb(248, 0, 54);
+ border-bottom-color: rgb(255, 64, 64);
+ border-left-color: rgb(252, 36, 90);
+}
+
+#secondRoundPlayer2 {
+    width: 250px;
+    height: 250px;
+    border: 2px;
+ border-style: solid;
+ border-color: aliceblue;
+}
+
+#secondRoundPlayer2:hover{
+ border-style: solid;
+ border: 3px;
+ border-style: solid;
+ border-top-color: rgb(216, 5, 5);
+ border-right-color: rgb(248, 0, 54);
+ border-bottom-color: rgb(255, 64, 64);
+ border-left-color: rgb(252, 36, 90);
+}
+
+#thirdRoundPlayer2 {
+    width: 250px;
+    height: 250px;
+    border: 2px;
+ border-style: solid;
+ border-color: aliceblue;
+}
+
+#thirdRoundPlayer2:hover{
+ border-style: solid;
+ border: 3px;
+ border-style: solid;
+ border-top-color: rgb(216, 5, 5);
+ border-right-color: rgb(248, 0, 54);
+ border-bottom-color: rgb(255, 64, 64);
+ border-left-color: rgb(252, 36, 90);
+}
+
+#firstRoundPlayer1 {
+    width: 250px;
+    height: 250px;
+    border: 2px;
+ border-style: solid;
+ border-color: aliceblue;
+}
+
+#firstRoundPlayer1:hover {
+    border-style: solid;
+    border: 3px;
+    border-style: solid;
+    border-top-color: rgb(0, 255, 255);
+    border-right-color: rgb(70, 227, 255);
+    border-bottom-color: rgb(168, 236, 248);
+    border-left-color: rgb(51, 223, 253);
+   }
+
+   #secondRoundPlayer1 {
+    width: 250px;
+    height: 250px;
+    border: 2px;
+ border-style: solid;
+ border-color: aliceblue;
+}
+
+#secondRoundPlayer1:hover {
+    border-style: solid;
+    border: 3px;
+    border-style: solid;
+    border-top-color: rgb(0, 255, 255);
+    border-right-color: rgb(70, 227, 255);
+    border-bottom-color: rgb(168, 236, 248);
+    border-left-color: rgb(51, 223, 253);
+   }
+
+   #thirdRoundPlayer1 {
+    width: 250px;
+    height: 250px;
+    border: 2px;
+ border-style: solid;
+ border-color: aliceblue;
+}
+
+#thirdRoundPlayer1:hover {
+    border-style: solid;
+    border: 3px;
+    border-style: solid;
+    border-top-color: rgb(0, 255, 255);
+    border-right-color: rgb(70, 227, 255);
+    border-bottom-color: rgb(168, 236, 248);
+    border-left-color: rgb(51, 223, 253);
+   }
+   
+#fight3 {
+    display: flex;
+padding: 10px;
+font-weight: bold;
+font-size: 30px;
+margin-top: 40px;
+margin-left: 25px;
+border: indianred;
+background: black;
+color: white;
+font-family: "Cyberverse", 'Times New Roman', Times, serif;
+}
+#fight4 {
+    display: flex;
+padding: 10px;
+font-weight: bold;
+font-size: 30px;
+margin-top: 40px;
+margin-left: 25px;
+border: indianred;
+background: black;
+color: white;
+font-family: "Cyberverse", 'Times New Roman', Times, serif;
+}
+
+#fight5 {
+    display: flex;
+padding: 10px;
+font-weight: bold;
+font-size: 30px;
+margin-top: 40px;
+margin-left: 25px;
+border: indianred;
+background: black;
+color: white;
+font-family: "Cyberverse", 'Times New Roman', Times, serif;
+}
+
+
+#fight6 {
+    display: flex;
+padding: 10px;
+font-weight: bold;
+font-size: 30px;
+margin-top: 40px;
+margin-left: 25px;
+border: indianred;
+background: black;
+color: white;
+font-family: "Cyberverse", 'Times New Roman', Times, serif;
+}
+
+#player1Results {
+    display: flex;
+    flex-direction: row;
+}
+#player2Results {
+    display: flex;
+    flex-direction: row;
+}
+#vidasP1 {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+#vidasP2 {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+#gameResult1 {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+#gameResult2 {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 20px;
+}
